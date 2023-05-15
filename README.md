@@ -5,6 +5,7 @@ The prompts are availabe in prompt directory
 * [Dataset](#dataset)
 * [Setup](#setup)
 * [Zero-shot](#Zero-shot)
+* [Self-correction][#self-correction]
 
 
 ## dataset
@@ -27,6 +28,17 @@ $ echo "Finished running DIN-SQL.py"
 
 ## Zero-shot
 The zero-shot prompt template used in the paper:
+
 ![Zero-shot](Zero-shot.png)
 
+## Self-Correction
+The Generic self-correction prompt was implemented in a zero-shot setting, where all queries were
+assumed to be "Buggy SQL".
 
+![generic](generic self-correction.png)
+
+The Gentle self-correction prompt was implemented in a zero-shot setting. For this self-correction prompt
+we don’t have the assumption of being Buggy and we included some instructions for fixing the SQL
+queries. 
+
+![generic](gentle self-correction.png)
