@@ -4,6 +4,7 @@ The prompts are availabe in prompt directory
 ## Table of contents
 * [Dataset](#dataset)
 * [Setup](#setup)
+* [Zero-shot](#Zero-shot)
 
 
 ## dataset
@@ -23,4 +24,9 @@ $ echo "Start running DIN-SQL.py"
 $ python3 DIN-SQL.py --dataset ./data/ --output predicted_sql.txt
 $ echo "Finished running DIN-SQL.py"
 ```
+
+## Zero-shot
+The zero-shot prompt template used in the paper:
+![alt text]([http://url/to/img.png](https://github.com/MohammadrezaPourreza/DIN-SQL-conferrence-submission/blob/main/Zero-shot.png))
+
 
