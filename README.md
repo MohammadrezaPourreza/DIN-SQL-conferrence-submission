@@ -35,10 +35,10 @@ The zero-shot prompt template used in the paper:
 The Generic self-correction prompt was implemented in a zero-shot setting, where all queries were
 assumed to be "Buggy SQL".
 
-![generic](generic self-correction.png)
+![generic](generic_self-correction.png)
 
 The Gentle self-correction prompt was implemented in a zero-shot setting. For this self-correction prompt
 we don’t have the assumption of being Buggy and we included some instructions for fixing the SQL
 queries. 
 
-![generic](gentle self-correction.png)
+![generic](gentle_self-correction.png)
