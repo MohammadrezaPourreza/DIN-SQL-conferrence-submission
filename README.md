@@ -27,6 +27,6 @@ $ echo "Finished running DIN-SQL.py"
 
 ## Zero-shot
 The zero-shot prompt template used in the paper:
-![alt text]([http://url/to/img.png](https://github.com/MohammadrezaPourreza/DIN-SQL-conferrence-submission/blob/main/Zero-shot.png))
+![Zero-shot](Zero-shot.png)
 
 
